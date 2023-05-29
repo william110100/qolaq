@@ -1,0 +1,25 @@
+.rs-message-container {
+  width: 200px;
+
+  > .rs-btn-close {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  &.rs-message-content {
+    .rs-message-body,
+    .rs-message-header {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  &.rs-message-error {
+    background-color: #f44336;
+  }
+
+  &.rs-message-success {
+    background-color: #06b073;
+  }
+}
